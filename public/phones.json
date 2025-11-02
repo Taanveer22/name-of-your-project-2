@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "image": "https://static-01.daraz.com.bd/p/b802b8ebb0a784ec791caa75e2d4de66.jpg",
+    "phone_name": "iPhone 15 Pro",
+    "brand_name": "Apple",
+    "price": 799.99,
+    "rating": 4.7,
+    "title": "Pro Performance",
+    "description": "A17 Bionic chip, titanium frame, and advanced triple-camera for smooth performance."
+  },
+  {
+    "id": "2",
+    "image": "https://static-01.daraz.com.bd/p/1ec88cbfff48b223f1dbb92ce20df4ec.jpg",
+    "phone_name": "iPhone 14",
+    "brand_name": "Apple",
+    "price": 899.99,
+    "rating": 4.9,
+    "title": "Cinematic Power",
+    "description": "Excellent battery life and vibrant display for seamless daily use and photography."
+  },
+  {
+    "id": "3",
+    "image": "https://static-01.daraz.com.bd/p/986dd21bae23af5b4186e0029dce42a7.jpg",
+    "phone_name": "iPhone 13 Pro",
+    "brand_name": "Apple",
+    "price": 999.99,
+    "rating": 3.5,
+    "title": "Everyday Pro",
+    "description": "Smooth performance with A15 Bionic and bright Super Retina XDR display."
+  },
+  {
+    "id": "4",
+    "image": "https://static-01.daraz.com.bd/p/285dfcce48daca08bbff06e6fb340200.jpg",
+    "phone_name": "iPhone 12",
+    "brand_name": "Apple",
+    "price": 699.99,
+    "rating": 4.5,
+    "title": "Classic Speed",
+    "description": "5G-ready design powered by A14 Bionic for fast and efficient performance."
+  },
+  {
+    "id": "5",
+    "image": "https://static-01.daraz.com.bd/p/ed234dd8498445e98c74028ddd0f966b.jpg",
+    "phone_name": "Galaxy S21",
+    "brand_name": "Samsung",
+    "price": 899.99,
+    "rating": 2.9,
+    "title": "Flagship Feel",
+    "description": "120Hz AMOLED display with stunning visuals and reliable camera features."
+  },
+  {
+    "id": "6",
+    "image": "https://static-01.daraz.com.bd/p/89a1dda89c94b5bdbe0acbe205fc799c.jpg",
+    "phone_name": "Galaxy F23",
+    "brand_name": "Samsung",
+    "price": 1099.99,
+    "rating": 5.0,
+    "title": "Smooth Performer",
+    "description": "Snapdragon 750G chip and 120Hz display for gaming and multitasking."
+  },
+  {
+    "id": "7",
+    "image": "https://static-01.daraz.com.bd/p/3fc5a8e21be21833bd0bcf2b8382fddc.jpg",
+    "phone_name": "Galaxy A33",
+    "brand_name": "Samsung",
+    "price": 999.99,
+    "rating": 4.7,
+    "title": "Stylish Everyday",
+    "description": "Bright AMOLED screen and 5G support with reliable all-day battery."
+  },
+  {
+    "id": "8",
+    "image": "https://static-01.daraz.com.bd/p/ed234dd8498445e98c74028ddd0f966b.jpg",
+    "phone_name": "Galaxy Note 5",
+    "brand_name": "Samsung",
+    "price": 999.99,
+    "rating": 4.7,
+    "title": "Creative Tool",
+    "description": "Precision S Pen and smooth performance for work and creativity."
+  },
+  {
+    "id": "9",
+    "image": "https://static-01.daraz.com.bd/p/627f7b3da3437c31a24cb6d1a9eb51bd.jpg",
+    "phone_name": "Redmi 11",
+    "brand_name": "Xiaomi",
+    "price": 1199.99,
+    "rating": 4.8,
+    "title": "Smart Value",
+    "description": "Large screen, smooth performance, and great battery at an affordable price."
+  },
+  {
+    "id": "10",
+    "image": "https://static-01.daraz.com.bd/p/ff3deae774e41a9491019b2d893d5a4c.jpg",
+    "phone_name": "Redmi 7",
+    "brand_name": "Xiaomi",
+    "price": 1299.99,
+    "rating": 3.9,
+    "title": "Everyday Basic",
+    "description": "Reliable phone with durable build and solid battery backup."
+  },
+  {
+    "id": "11",
+    "image": "https://static-01.daraz.com.bd/p/30e0eae11e7cfcf2924cf41d283553ae.jpg",
+    "phone_name": "Redmi 10",
+    "brand_name": "Xiaomi",
+    "price": 1099.99,
+    "rating": 4.7,
+    "title": "Balanced Choice",
+    "description": "90Hz display and quad-camera setup delivering all-around performance."
+  },
+  {
+    "id": "12",
+    "image": "https://static-01.daraz.com.bd/p/19b133906213bcccda357d36de841f97.jpg",
+    "phone_name": "Redmi 12",
+    "brand_name": "Xiaomi",
+    "price": 1399.99,
+    "rating": 4.8,
+    "title": "Bold Upgrade",
+    "description": "Premium design with a 108MP camera and crisp large display."
+  }
+]
