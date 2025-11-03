@@ -16,7 +16,7 @@ const Navbar = () => {
                   : ""
               }
             >
-              home
+              Home
             </NavLink>
           </li>
           <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                   : ""
               }
             >
-              favourites
+              Favourites
             </NavLink>
           </li>
           <li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                   : ""
               }
             >
-              login
+              Login
             </NavLink>
           </li>
         </ul>

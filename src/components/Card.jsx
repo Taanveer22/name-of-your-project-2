@@ -1,10 +1,16 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
-const Card = ({ phone }) => {
-  const { id, phone_name, brand_name, image, } = phone || {};
+import { IoTrashBin } from "react-icons/io5";
+
+const Card = ({ phone, handleDeleteFromFavourites }) => {
+  const location = useLocation();
+  // console.log(location);
+  const { pathname } = location;
+  console.log(pathname);
+  const { id, phone_name, brand_name, image } = phone || {};
   return (
-    <div>
-      <div className="flex flex-col rounded-xl bg-blue-200 p-5 text-gray-700">
+    <>
+      <div className="relative flex flex-col rounded-xl bg-blue-200 p-5 text-gray-700">
         <img src={image} className="h-96 w-full object-cover" />
         <div className="my-5">
           <div className="flex items-center justify-between">
@@ -26,13 +32,22 @@ const Card = ({ phone }) => {
             </button>
           </Link>
         </div>
+        {pathname === "/favourites" && (
+          <div
+            onClick={() => handleDeleteFromFavourites(id)}
+            className="absolute -top-5 -right-5 bg-red-500 rounded-full p-3"
+          >
+            <IoTrashBin size={20}></IoTrashBin>
+          </div>
+        )}
       </div>
-    </div>
+    </>
   );
 };
 
 Card.propTypes = {
   phone: PropTypes.object,
+  handleDeleteFromFavourites: PropTypes.func,
 };
 
 export default Card;
